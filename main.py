@@ -5,7 +5,7 @@ print()
 
 
 
-options = ["A", "B", "C"]
+options = ["A", "B", "C", "D"]
 
 def scene2():
     toast = ["butter", "butter", "butter"]
@@ -38,7 +38,7 @@ def scene1():
         scene2()
     if scene1.upper() == "C":
         scene2()
-    elif scene1.upper() == "TOAST":
+    if scene1.upper() == "D":
         secretending1()
 
 def scene2():
@@ -60,7 +60,7 @@ def end():
     print("WASTED")
 
 def secretending1():
-    ("You some how get transported to the world of toast, where you see a sword in the stone. You reach for the sword and pull it out. You are named the king of toast and are assigned to slay evil with the sword called Toastcalibur")
+    print("You some how get transported to the world of toast, where you see a sword in the stone. You reach for the sword and pull it out. You are named the king of toast and are assigned to slay evil with the sword called Toastcalibur")
     specialending()
 
 def specialending():
